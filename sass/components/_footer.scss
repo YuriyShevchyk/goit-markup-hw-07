@@ -28,8 +28,7 @@
   .address-list-item {
     margin-bottom: 9px;
   }
-  
-  .address-list-item:last-child {
+    &:last-child {
     margin-bottom: 0;
   }
   
@@ -166,16 +165,11 @@
     border-width: 1px;
   
   }
-  
-  .email-footer::placeholder {
-  
-  
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0,03;
-  
-  
-  color:rgba(255, 255, 255, 0.6);
+    &::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0,03;
+    color:rgba(255, 255, 255, 0.6);
   
   }

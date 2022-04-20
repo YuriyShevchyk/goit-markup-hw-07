@@ -8,13 +8,12 @@
     justify-content: space-between;
   }
   
-  .works-list-item {
+  &-item {
     margin-right: 30px;
     width: 370px;
     height: 294px;
   }
-  
-  .works-list-item:last-child {
+    &:last-child {
     margin-right: 0;
   }
   
